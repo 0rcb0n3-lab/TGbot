@@ -57,7 +57,6 @@ def main():
     bot = ptbot.Bot(tg_token)
     bot.reply_on_message(reply)
     bot.run_bot()
-    return bot
 
 
 if __name__ == '__main__':
