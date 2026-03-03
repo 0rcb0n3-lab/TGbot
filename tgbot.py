@@ -35,7 +35,7 @@ def notify_final(author_id, message):
     bot.send_message(author_id, answer)
     
 
-def reply(chat_id, question, callback):
+def reply(chat_id, question):
     time = parse(question)
     message_id = bot.send_message(chat_id, 'Запускаю таймер')
     
